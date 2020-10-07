@@ -25,7 +25,7 @@
         <Label fx:id="lblEmail" layoutX="248.0" layoutY="89.0" prefHeight="18.0" prefWidth="338.0" styleClass="cell_small_label" text="{email:placeholder}" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="20.0" />
         <Label layoutX="192.0" layoutY="119.0" styleClass="cell_small_label" text="Address" AnchorPane.leftAnchor="192.0" />
         <Label fx:id="lblAddress" layoutX="248.0" layoutY="119.0" prefHeight="18.0" prefWidth="338.0" styleClass="cell_small_label" text="{address:placeholder}" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="20.0" />
-        <Label layoutX="21.0" layoutY="149.0" styleClass="cell_small_label" text="Tags" AnchorPane.leftAnchor="20.0" />
-        <FlowPane fx:id="tags" layoutX="14.0" layoutY="164.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="18.0" prefWidth="569.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0"/>
+        <Label layoutX="192.0" layoutY="149.0" styleClass="cell_small_label, clientInfoPage-tag" text="Tags" AnchorPane.leftAnchor="20.0"/>
+        <FlowPane fx:id="tags" layoutX="20.0" layoutY="179.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="18.0" prefWidth="569.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="14.0"/>
     </children>
 </AnchorPane>
